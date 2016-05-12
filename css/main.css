@@ -4,11 +4,6 @@ body {
   padding: 0;
 }
 
-/*   Get rid of style on li's   */
-.gallery  {
-  list-style-type: none;
-}
-
 /*   Gallery layout  */
 
 .gallery {
@@ -19,15 +14,13 @@ body {
   text-align: center;
 }
 
-.gallery li a img {
-  width: 185px;
+.gallery a img {
+  width: 180px;
   height: auto;
-}
-
-.gallery li {
   display: inline-block;
   padding: 30px;
 }
+
 
 /*   Hide span element   */
 .caption {
