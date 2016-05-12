@@ -1,0 +1,35 @@
+/*   Global styles   */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*   Get rid of style on li's   */
+.gallery  {
+  list-style-type: none;
+}
+
+/*   Gallery layout  */
+
+.gallery {
+  max-width: 980px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 0;
+  text-align: center;
+}
+
+.gallery li a img {
+  width: 185px;
+  height: auto;
+}
+
+.gallery li {
+  display: inline-block;
+  padding: 30px;
+}
+
+/*   Hide span element   */
+.caption {
+  display: none;
+}
