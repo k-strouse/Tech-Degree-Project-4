@@ -21,8 +21,48 @@ body {
   padding: 30px;
 }
 
+.gallery a {
+  height: 0;
+  width: 0;
+}
+
 
 /*   Hide span element   */
 .caption {
   display: none;
+}
+
+/*   Search styles   */
+#search {
+  width: 460px;
+  border-radius: 10px;
+  font-size: 16pt;
+}
+
+.search-input {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.no-results {
+  display: none;
+}
+
+
+/*   lightGallery Plugin user styles   */
+
+.lg-toolbar.group {
+    display: none;
+}
+
+.lg-backdrop.in {
+  opacity: .5;
+}
+
+.lg-sub-html {
+  width: 40%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  background-color: black;
+  border-radius: 20px;
 }
