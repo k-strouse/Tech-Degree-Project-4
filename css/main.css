@@ -22,6 +22,7 @@ body {
   text-align: center;
   display: block;
   list-style-type: none;
+  cursor: pointer;
 }
 
 .gallery li:nth-child(4n+1) {
@@ -40,10 +41,6 @@ body {
 .gallery li:nth-child(4n+4) {
   clear: right;
 }
-
-
-
-
 
 /*   Hide span/caption element   */
 .caption {
@@ -66,7 +63,6 @@ body {
 .no-results {
   display: none;
 }
-
 
 /*   lightGallery Plugin user styles   */
 
