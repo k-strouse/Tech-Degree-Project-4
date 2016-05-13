@@ -4,38 +4,57 @@ body {
   padding: 0;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 /*   Gallery layout  */
 
-.gallery {
+.container {
   max-width: 980px;
+  margin: 0 auto;
+}
+
+.gallery {
   margin: 0 auto;
   margin-bottom: 20px;
   padding: 0;
   text-align: center;
+  display: block;
+  list-style-type: none;
 }
 
-.gallery a img {
-  width: 180px;
-  height: auto;
-  display: inline-block;
-  padding: 30px;
+.gallery li:nth-child(4n+1) {
+  margin-left: 0;
 }
 
-.gallery a {
-  height: 0;
-  width: 0;
+.gallery li:nth-child(4n+4) {
+  margin-right: 0;
+}
+
+.gallery li {
+  float: left;
+  margin: 30px;
+}
+
+.gallery li:nth-child(4n+4) {
+  clear: right;
 }
 
 
-/*   Hide span element   */
+
+
+
+/*   Hide span/caption element   */
 .caption {
   display: none;
+  text-align: center;
 }
 
 /*   Search styles   */
 #search {
   width: 460px;
-  border-radius: 10px;
+  border-radius: 5px;
   font-size: 16pt;
 }
 
