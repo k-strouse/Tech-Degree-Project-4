@@ -11,8 +11,3 @@ $("#lightgallery").lightGallery({
 $('#search').hideseek({
   nodata: 'No Results Found',
 });
-
-$(document).ready(function()
-  {
-    $('.no-results').attr('href', 'index.html')
-  });
